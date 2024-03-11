@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+body {
+    font-family: sans-serif;
+}
+.button {
+    cursor: pointer;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+#header {
+    margin: 30px 0;
+    padding: 30px 0;
+    position: sticky;
+  top: 0;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #ffffff7a;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header h1 {
+    font-size: 40px;
+    color: rgb(3, 57, 99);
+    font-weight: 900;
+
+
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.header-nav a {
+    font-size: 20px;
+    font-weight:600;
+    color: cadetblue;
+}
+.header-nav a:hover {
+transform: scale(1.2);
+color: coral;
+}
+ .header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+
+.header select {
+    padding: 12px 20px;
+    background: aqua;
+    color: blue;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+ .search input {
+    width: 300px;
+    height: 30px;
+    border:2px solid black ;
+    border-radius: 10px;
+    outline: none;
+    background: none;
+    font-size: 18px;
+ }
+ .search-btn {
+    width: 100px;
+    height: 30px;
+    border: 2px solid blue;
+    border-radius: 7px;
+    background: yellowgreen;
+    color: rgb(0, 51, 255);
+    cursor: pointer;
+ }
+  .search-btn:hover {
+    transform: scale(0.9);
+   background: rgb(11, 222, 237);
+   color:black;
+  }
+
+ 
+
+
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.toop {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 20%;
+    height: 300px;
+    border: 2px solid rgba(3, 126, 139, 0.701);
+    border-radius: 4px;
+
+}
+.toop img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.toop h2 {
+ color: rgb(27, 196, 243);
+}
+.toop h3 {
+    color: rgb(223, 18, 100);
+    margin: 6px 0;
+}
+.toop h5 {
+   color: blue;
+   margin-bottom: 9px;
+   
+}
+.toop a {
+    color: black;
+}
+
+
+
+
